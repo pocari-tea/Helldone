@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: 3729a2713c350004d9d4d9f95349c6ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2112763060966797913
+    second: knight_stay_0
+  - first:
+      213: 6548964433306605433
+    second: knight_stay_1
+  - first:
+      213: -8361524201786668761
+    second: knight_stay_2
+  - first:
+      213: 8616035549197722932
+    second: knight_stay_3
+  - first:
+      213: 7304799607570010810
+    second: knight_stay_4
+  - first:
+      213: -3761590322649995774
+    second: knight_stay_5
+  - first:
+      213: -5265019768238997947
+    second: knight_stay_6
+  - first:
+      213: 8764812283390030229
+    second: knight_stay_7
+  - first:
+      213: -8680237078257749933
+    second: knight_stay_8
+  - first:
+      213: -6685937571560952236
+    second: knight_stay_9
+  - first:
+      213: 4301859740285442235
+    second: knight_stay_10
+  - first:
+      213: -3186982719611203531
+    second: knight_stay_11
+  - first:
+      213: 4079540664867138608
+    second: knight_stay_12
+  - first:
+      213: -4665213059912562036
+    second: knight_stay_13
+  - first:
+      213: -3899368331140970055
+    second: knight_stay_14
+  - first:
+      213: -2004432035895643584
+    second: knight_stay_15
+  - first:
+      213: 5819820644769251897
+    second: knight_stay_16
+  - first:
+      213: 3711979732558390722
+    second: knight_stay_17
+  - first:
+      213: -5797477662596073634
+    second: knight_stay_18
+  - first:
+      213: 3747614890569231864
+    second: knight_stay_19
+  - first:
+      213: -5694417670897912193
+    second: knight_stay_20
+  - first:
+      213: 8301215726341997764
+    second: knight_stay_21
+  - first:
+      213: 1184845536839323248
+    second: knight_stay_22
+  - first:
+      213: -1042353038193028461
+    second: knight_stay_23
+  - first:
+      213: 4533800539961619557
+    second: knight_stay_24
+  - first:
+      213: 2802791131792730929
+    second: knight_stay_25
+  - first:
+      213: -66844533191178449
+    second: knight_stay_26
+  - first:
+      213: 1614822604535606610
+    second: knight_stay_27
+  - first:
+      213: 7374977585562227938
+    second: knight_stay_28
+  - first:
+      213: -6181875051247773733
+    second: knight_stay_29
+  - first:
+      213: -5360110655121088367
+    second: knight_stay_30
+  - first:
+      213: 2302758959413807155
+    second: knight_stay_31
+  - first:
+      213: 1727682058753077455
+    second: knight_stay_32
+  - first:
+      213: -4114237588212620425
+    second: knight_stay_33
+  - first:
+      213: 6429475176043823753
+    second: knight_stay_34
+  - first:
+      213: 6117184330063125116
+    second: knight_stay_35
+  - first:
+      213: -4023692650223485204
+    second: knight_stay_36
+  - first:
+      213: 7291086051057306012
+    second: knight_stay_37
+  - first:
+      213: -7430555869060499794
+    second: knight_stay_38
+  - first:
+      213: -458021199208328396
+    second: knight_stay_39
+  - first:
+      213: 6055279098521934389
+    second: knight_stay_40
+  - first:
+      213: -2088159369602891763
+    second: knight_stay_41
+  - first:
+      213: -6210997769094365546
+    second: knight_stay_42
+  - first:
+      213: 2787760530327952583
+    second: knight_stay_43
+  - first:
+      213: -5164685852359335939
+    second: knight_stay_44
+  - first:
+      213: 6516042637015818672
+    second: knight_stay_45
+  - first:
+      213: -697449176219684864
+    second: knight_stay_46
+  - first:
+      213: -4280912157102782624
+    second: knight_stay_47
+  - first:
+      213: -4433521850619904454
+    second: knight_stay_48
+  - first:
+      213: 4272764003855809669
+    second: knight_stay_49
+  - first:
+      213: -3428314887696892864
+    second: knight_stay_50
+  - first:
+      213: -6552662151209869523
+    second: knight_stay_51
+  - first:
+      213: -4755024212832337154
+    second: knight_stay_52
+  - first:
+      213: 2237245544486270007
+    second: knight_stay_53
+  - first:
+      213: -2405178620835136863
+    second: knight_stay_54
+  - first:
+      213: -3077169896251964433
+    second: knight_stay_55
+  - first:
+      213: -4075947536866796069
+    second: knight_stay_56
+  - first:
+      213: -7811963780677006539
+    second: knight_stay_57
+  - first:
+      213: -1127734165085296911
+    second: knight_stay_58
+  - first:
+      213: -1089935990678323216
+    second: knight_stay_59
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: knight_stay_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1854
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f5a0275f427384d9dfba594cc78cd3
+      internalID: 2112763060966797913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1854
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101a038c85df9f04f84b239e4ccdc936
+      internalID: 6548964433306605433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1854
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ccc235e7db37d4594e9365c737bee3
+      internalID: -8361524201786668761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1854
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daef3e0d22ba3df4c8aaf1819de24f66
+      internalID: 8616035549197722932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1854
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625b883a6c07a5748906a548bc21eae1
+      internalID: 7304799607570010810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1686
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e683b154f8176f54ba40358cecbe44bf
+      internalID: -3761590322649995774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1686
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3d081edbbba74eb6d2d8ffab4003a
+      internalID: -5265019768238997947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1686
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d621b86d1c79b24aa3d937e5f2eac62
+      internalID: 8764812283390030229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1686
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04defd42a38c4e4ea9ffcbcabcae6fa
+      internalID: -8680237078257749933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_9
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1686
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af8b44b2a60e0e41af1e930d66c43c6
+      internalID: -6685937571560952236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1518
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dde6d81066e9e44b16bbacc1f40988
+      internalID: 4301859740285442235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1518
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec60ef8fdc95ce48a2572daf12e2b78
+      internalID: -3186982719611203531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_12
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1518
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734d67933b7eeeb42b817bdcbb69efcc
+      internalID: 4079540664867138608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1518
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5695fe7e60338408be77ff3be16424
+      internalID: -4665213059912562036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_14
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1518
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957744b46ab754d4980290ad7a6dc1cc
+      internalID: -3899368331140970055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1350
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2195bc70e71f57149a6e60d21cf1ea2c
+      internalID: -2004432035895643584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1350
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e117d4c22ccdaf4381eb8628d5c4b38
+      internalID: 5819820644769251897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1350
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b65508f252eb54aafbcf965303cd83
+      internalID: 3711979732558390722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_18
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1350
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8296969117c13ac4fa30a3ab45486d16
+      internalID: -5797477662596073634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_19
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1350
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdd8521f26f4a542b150310e4e1e224
+      internalID: 3747614890569231864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1182
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0132293f41d1847458b57cffc72b8d6e
+      internalID: -5694417670897912193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1182
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dca8a0bbc6d1c4a8d1ad264641a5ef
+      internalID: 8301215726341997764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_22
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1182
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b49f56d61db7e94a868aab4b410fc1c
+      internalID: 1184845536839323248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1182
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ef9bbb628b424584450fbd0ad1861
+      internalID: -1042353038193028461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_24
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1182
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80efb061397c4e43a4b8152dd8dd33c
+      internalID: 4533800539961619557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1014
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19153c4824eb865488dea63e8e2a0a23
+      internalID: 2802791131792730929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1014
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec3f168f9cd9714f8bca55784ef5f2f
+      internalID: -66844533191178449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_27
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1014
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432dd38d65a9f2349b7352df0830e007
+      internalID: 1614822604535606610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_28
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1014
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13397c333755471489e2967ebb825aa8
+      internalID: 7374977585562227938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_29
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1014
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7da69115ecde3a4a9852e550ce146c3
+      internalID: -6181875051247773733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 846
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce2009d8a3dc74496a17588dae537b
+      internalID: -5360110655121088367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 846
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f293e00307171854e9be6e8a162891e9
+      internalID: 2302758959413807155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 846
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675effd6625c682418d3313bf8a9c75a
+      internalID: 1727682058753077455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 846
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e7af4346b6da646922da5dd0b9be88
+      internalID: -4114237588212620425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_34
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 846
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676ef74f305710942a2d685692500567
+      internalID: 6429475176043823753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 678
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29271d85ec3799439e6e9a0611e8b90
+      internalID: 6117184330063125116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 678
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b54268e8d8437b428da1eca383d66c8
+      internalID: -4023692650223485204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 678
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79640ca202205c34cbe8a9e68a41f14f
+      internalID: 7291086051057306012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 678
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76e5c8b3bfcf704c8d574b0b29f5ebd
+      internalID: -7430555869060499794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_39
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 678
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61f5fbaf887e7b49af4e403aa2709b7
+      internalID: -458021199208328396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 510
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eb1db263fbc634baf618eb2fe9cac2
+      internalID: 6055279098521934389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 510
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f2c3dd5d7d38a4e8d5e458cb9f49c7
+      internalID: -2088159369602891763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_42
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 510
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a222ec7a6783fe41abf624dbf0496ed
+      internalID: -6210997769094365546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_43
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 510
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acb62ecc7cad794a807af0ae0b6e38f
+      internalID: 2787760530327952583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_44
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 510
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfdd056aa6c0b5459f39c2ee784e937
+      internalID: -5164685852359335939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 342
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb2a5a4ce77c754181e963011d7ef21
+      internalID: 6516042637015818672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 342
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccab3ad3512e6fc40bec52526b9f4c69
+      internalID: -697449176219684864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_47
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 342
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1ad580c0d70f64e9a212d9fb3bc14d
+      internalID: -4280912157102782624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_48
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 342
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f043ba557ac06c047baddfa1ff7f5500
+      internalID: -4433521850619904454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_49
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 342
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a350621401baf1b45834997d3c9052aa
+      internalID: 4272764003855809669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 174
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89e13b31b928144e9a8ef4601174ace
+      internalID: -3428314887696892864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 174
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa686fb43a40984081775b0a90b03a1
+      internalID: -6552662151209869523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_52
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 174
+        width: 126
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd049f76c0c652e419f457b1e0358dc1
+      internalID: -4755024212832337154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_53
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 174
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef18162b9b1dedf4c946da9fc0ab5c61
+      internalID: 2237245544486270007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_54
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 174
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f897f18988bf1e74ba5d05dc0656fc50
+      internalID: -2405178620835136863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_55
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf873295bd0084341b927a2a312d9e07
+      internalID: -3077169896251964433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_56
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 6
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d420f4a23170ef40b3bb3eed395b3e9
+      internalID: -4075947536866796069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_57
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 6
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db4461ae773eee44aa6ac6051420322
+      internalID: -7811963780677006539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_58
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 6
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b318c6ca64822469c40a778bf38055
+      internalID: -1127734165085296911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_stay_59
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 6
+        width: 126
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf8c6a05ccc191479ab45848bd96fb1
+      internalID: -1089935990678323216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

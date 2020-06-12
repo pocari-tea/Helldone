@@ -1,0 +1,115 @@
+{
+    "Weapon": [
+        {
+            "Warrior": [
+                {
+                    "two-hander": [
+                        {
+                            "좋은 양손검": [ 5 ]
+                        }
+                    ],
+                    "dual-wield": [
+                        {
+                            "좋은 쌍검": [ 5 ]
+                        }
+                    ],
+                    "Sword-Shiled": [
+                        {
+                            "나무 검방": [ 6 ]
+                        }
+                    ],
+                    "Shiled": [
+                        {
+                            "강철 방패": [ 3 ]
+                        }
+                    ]
+                }
+            ],
+            "Archor": [
+                {
+                    "Bow": [
+                        {
+                            "조선시대 활": [ 4 ]
+                        }
+                    ],
+                    "CrossBow": [
+                        {
+                            "메이플 석궁": [ 5 ]
+                        }
+                    ],
+                    "Hand-Canon": [
+                        {
+                            "핸드 캐논": [ 7 ]
+                        }
+                    ],
+                    "Musket": [
+                        {
+                            "머스킷티어": [ 6 ]
+                        }
+                    ]
+                }
+            ],
+            "Magician": [
+                {
+                    "Wand": [
+                        {
+                            "마법사 완드": [ 5 ]
+                        }
+                    ],
+                    "Scroll": [
+                        {
+                            "마법 스크롤": [ 7 ]
+                        }
+                    ],
+                    "Book": [
+                        {
+                            "게티아": [ 6 ]
+                        }
+                    ]
+                }
+            ],
+            "Log": [
+                {
+                    "Knife": [
+                        {
+                            "도적 단검": [ 4 ]
+                        }
+                    ],
+                    "Knuckle": [
+                        {
+                            "고양이 발": [ 5 ]
+                        }
+                    ],
+                    "Throw": [
+                        {
+                            "짱돌": [ 7 ]
+                        }
+                    ],
+                    "Blowgun": [
+                        {
+                            "티모 바람총": [ 6 ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "Expendables": [
+        {
+            "Bullet": [],
+            "Stone": [],
+            "Scroll": [],
+            "Arrow": [],
+            "Throw-Knife": [],
+            "Throw-Axe": [],
+            "Dart": [],
+            "Shuriken": [],
+            "Boomerang": [],
+            "Needle": [],
+            "Fire-Extinguisher": [],
+            "Ball": []
+        }
+    ]
+}
+
