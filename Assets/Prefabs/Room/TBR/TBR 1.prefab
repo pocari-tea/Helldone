@@ -47,6 +47,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -154,6 +155,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4920,6 +4922,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5014,6 +5017,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5120,6 +5124,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5167,6 +5172,7 @@ GameObject:
   - component: {fileID: 4758631484313007331}
   - component: {fileID: 4193658743026264443}
   - component: {fileID: 8476383057621715776}
+  - component: {fileID: 4453888466584718151}
   m_Layer: 0
   m_Name: platform
   m_TagString: Platform
@@ -5202,6 +5208,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5282,6 +5289,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &4453888466584718151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462587692658754055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1495963546523975621
 GameObject:
   m_ObjectHideFlags: 0
@@ -9987,6 +10006,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10047,6 +10067,7 @@ GameObject:
   - component: {fileID: 4128049386322083427}
   - component: {fileID: 1449878099090593191}
   - component: {fileID: 8101760013552062342}
+  - component: {fileID: 51165101462622913}
   m_Layer: 0
   m_Name: platform (2)
   m_TagString: Platform
@@ -10082,6 +10103,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10162,6 +10184,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &51165101462622913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2161882459624535814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2784880369154885562
 GameObject:
   m_ObjectHideFlags: 0
@@ -10174,6 +10208,7 @@ GameObject:
   - component: {fileID: 2486354078846045281}
   - component: {fileID: 3370819232609823489}
   - component: {fileID: 4108473942843620685}
+  - component: {fileID: 5617848665661234578}
   m_Layer: 0
   m_Name: platform (1)
   m_TagString: Platform
@@ -10209,6 +10244,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10289,6 +10325,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &5617848665661234578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2784880369154885562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3302132954060769181
 GameObject:
   m_ObjectHideFlags: 0
@@ -10392,6 +10440,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10499,6 +10548,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10665,6 +10715,7 @@ GameObject:
   - component: {fileID: 7775821517725012555}
   - component: {fileID: 2684622367796475232}
   - component: {fileID: 9077251400267751728}
+  - component: {fileID: 8665193073243324135}
   m_Layer: 0
   m_Name: platform (3)
   m_TagString: Platform
@@ -10700,6 +10751,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10780,6 +10832,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &8665193073243324135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4885454011513257913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6494263567567856770
 GameObject:
   m_ObjectHideFlags: 0
@@ -10826,6 +10890,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15649,6 +15714,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15744,6 +15810,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15887,11 +15954,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6149387650712039878}
     m_Modifications:
-    - target: {fileID: 2379178378311154282, guid: e79765ccc0217b04e82f8b41e05de02a,
-        type: 3}
-      propertyPath: m_Name
-      value: B Collider
-      objectReference: {fileID: 0}
     - target: {fileID: 1032729066611150756, guid: e79765ccc0217b04e82f8b41e05de02a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15946,6 +16008,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379178378311154282, guid: e79765ccc0217b04e82f8b41e05de02a,
+        type: 3}
+      propertyPath: m_Name
+      value: B Collider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79765ccc0217b04e82f8b41e05de02a, type: 3}
@@ -16037,11 +16104,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6149387650712039878}
     m_Modifications:
-    - target: {fileID: 5932676701792964335, guid: f482a83188899ad44babfe4beb95acfd,
-        type: 3}
-      propertyPath: m_Name
-      value: T Collider
-      objectReference: {fileID: 0}
     - target: {fileID: 372958441993321978, guid: f482a83188899ad44babfe4beb95acfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16097,6 +16159,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5932676701792964335, guid: f482a83188899ad44babfe4beb95acfd,
+        type: 3}
+      propertyPath: m_Name
+      value: T Collider
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f482a83188899ad44babfe4beb95acfd, type: 3}
 --- !u!4 &6409226225851172999 stripped
@@ -16112,11 +16179,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6149387650712039878}
     m_Modifications:
-    - target: {fileID: 7709221689161627879, guid: bde0487528d179540975a671ad9904b2,
-        type: 3}
-      propertyPath: m_Name
-      value: R
-      objectReference: {fileID: 0}
     - target: {fileID: 4187561305001288671, guid: bde0487528d179540975a671ad9904b2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16172,6 +16234,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7709221689161627879, guid: bde0487528d179540975a671ad9904b2,
+        type: 3}
+      propertyPath: m_Name
+      value: R
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bde0487528d179540975a671ad9904b2, type: 3}
 --- !u!4 &5443291928985780682 stripped
@@ -16187,11 +16254,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6149387650712039878}
     m_Modifications:
-    - target: {fileID: 6239529392098679617, guid: d8b23f9445fa232469661254ea7cf9d5,
-        type: 3}
-      propertyPath: m_Name
-      value: R collider
-      objectReference: {fileID: 0}
     - target: {fileID: 3663935065703257603, guid: d8b23f9445fa232469661254ea7cf9d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16246,6 +16308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239529392098679617, guid: d8b23f9445fa232469661254ea7cf9d5,
+        type: 3}
+      propertyPath: m_Name
+      value: R collider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8b23f9445fa232469661254ea7cf9d5, type: 3}

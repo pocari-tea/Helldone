@@ -264,6 +264,9 @@
           <e p="MapCamera.cs" t="Include" />
           <e p="MonsterInfo.cs" t="Include" />
           <e p="MoveScene.cs" t="Include" />
+          <e p="platform" t="Include">
+            <e p="platform.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="PlayerManager.cs" t="Include" />
           </e>

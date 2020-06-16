@@ -46,6 +46,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -119,6 +120,7 @@ GameObject:
   - component: {fileID: 1041433329878969997}
   - component: {fileID: 3846537242739812111}
   - component: {fileID: 136000959835975376}
+  - component: {fileID: 7503266012230718359}
   m_Layer: 0
   m_Name: platform (3)
   m_TagString: Platform
@@ -154,6 +156,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -234,6 +237,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &7503266012230718359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192622185052578887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &784256452813868459
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +295,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -387,6 +403,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5153,6 +5170,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5213,6 +5231,7 @@ GameObject:
   - component: {fileID: 1843623173963430492}
   - component: {fileID: 1758724570121752077}
   - component: {fileID: 2059674697453875373}
+  - component: {fileID: 4446726306888778894}
   m_Layer: 0
   m_Name: platform (5)
   m_TagString: Platform
@@ -5248,6 +5267,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5328,6 +5348,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &4446726306888778894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794762691872357231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2298115870844361017
 GameObject:
   m_ObjectHideFlags: 0
@@ -5431,6 +5463,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5504,6 +5537,7 @@ GameObject:
   - component: {fileID: 7223330261892832037}
   - component: {fileID: 6675190174905054459}
   - component: {fileID: 8694567631105841586}
+  - component: {fileID: 5480363163783750974}
   m_Layer: 0
   m_Name: platform (6)
   m_TagString: Platform
@@ -5539,6 +5573,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5619,6 +5654,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &5480363163783750974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3868937098766854617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4346733676300731109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5631,6 +5678,7 @@ GameObject:
   - component: {fileID: 405175329190012844}
   - component: {fileID: 5322650910940881656}
   - component: {fileID: 8407607600652548527}
+  - component: {fileID: 4617421738179817836}
   m_Layer: 0
   m_Name: platform (4)
   m_TagString: Platform
@@ -5666,6 +5714,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5746,6 +5795,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &4617421738179817836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4346733676300731109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4630381150816474266
 GameObject:
   m_ObjectHideFlags: 0
@@ -10451,6 +10512,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10546,6 +10608,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10653,6 +10716,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10726,6 +10790,7 @@ GameObject:
   - component: {fileID: 6794796088843833995}
   - component: {fileID: 4735514827559050622}
   - component: {fileID: 6103155380374394668}
+  - component: {fileID: 1301709825179187901}
   m_Layer: 0
   m_Name: platform
   m_TagString: Platform
@@ -10761,6 +10826,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10841,6 +10907,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &1301709825179187901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6037944417840832431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6907936360624287189
 GameObject:
   m_ObjectHideFlags: 0
@@ -10887,6 +10965,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10960,6 +11039,7 @@ GameObject:
   - component: {fileID: 7616039976708815210}
   - component: {fileID: 2597924430376279727}
   - component: {fileID: 3195253385122841231}
+  - component: {fileID: 309868230013122725}
   m_Layer: 0
   m_Name: platform (2)
   m_TagString: Platform
@@ -10995,6 +11075,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11075,6 +11156,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &309868230013122725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7463481437411993876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7696188290432957490
 GameObject:
   m_ObjectHideFlags: 0
@@ -11121,6 +11214,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11381,6 +11475,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11454,6 +11549,7 @@ GameObject:
   - component: {fileID: 4253312904585636799}
   - component: {fileID: 2613852133006679272}
   - component: {fileID: 442833431737857344}
+  - component: {fileID: 6312313360081426170}
   m_Layer: 0
   m_Name: platform (1)
   m_TagString: Platform
@@ -11489,6 +11585,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11569,6 +11666,18 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &6312313360081426170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8511479262591848859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618396bd834c809438206d5231bc0091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8966818438369093271
 GameObject:
   m_ObjectHideFlags: 0
@@ -11614,6 +11723,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11656,11 +11766,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1728821643768833164}
     m_Modifications:
-    - target: {fileID: 5932676701792964335, guid: f482a83188899ad44babfe4beb95acfd,
-        type: 3}
-      propertyPath: m_Name
-      value: T Collider
-      objectReference: {fileID: 0}
     - target: {fileID: 372958441993321978, guid: f482a83188899ad44babfe4beb95acfd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11716,6 +11821,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5932676701792964335, guid: f482a83188899ad44babfe4beb95acfd,
+        type: 3}
+      propertyPath: m_Name
+      value: T Collider
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f482a83188899ad44babfe4beb95acfd, type: 3}
 --- !u!4 &4822299645022432722 stripped
@@ -11731,11 +11841,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1728821643768833164}
     m_Modifications:
-    - target: {fileID: 7709221689161627879, guid: bde0487528d179540975a671ad9904b2,
-        type: 3}
-      propertyPath: m_Name
-      value: R
-      objectReference: {fileID: 0}
     - target: {fileID: 4187561305001288671, guid: bde0487528d179540975a671ad9904b2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11791,6 +11896,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7709221689161627879, guid: bde0487528d179540975a671ad9904b2,
+        type: 3}
+      propertyPath: m_Name
+      value: R
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bde0487528d179540975a671ad9904b2, type: 3}
 --- !u!4 &7854481340494554436 stripped
@@ -11806,11 +11916,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1728821643768833164}
     m_Modifications:
-    - target: {fileID: 2379178378311154282, guid: e79765ccc0217b04e82f8b41e05de02a,
-        type: 3}
-      propertyPath: m_Name
-      value: B Collider
-      objectReference: {fileID: 0}
     - target: {fileID: 1032729066611150756, guid: e79765ccc0217b04e82f8b41e05de02a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11865,6 +11970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379178378311154282, guid: e79765ccc0217b04e82f8b41e05de02a,
+        type: 3}
+      propertyPath: m_Name
+      value: B Collider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79765ccc0217b04e82f8b41e05de02a, type: 3}

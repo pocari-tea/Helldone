@@ -71,59 +71,6 @@ public class UIController : MonoBehaviour
             }
                 
         }
-
-        if(Input.GetMouseButtonDown(1))
-        {
-            if (checkMostHighStatus() == "STR")
-            {
-                if(STRSkill.fillAmount == 1)
-                {
-                    STRSkill.fillAmount = 0;
-                }
-            }
-            else if (checkMostHighStatus() == "DEX")
-            {
-                if (DEXSkill.fillAmount == 1)
-                {
-                    DEXSkill.fillAmount = 0;
-                }
-            }
-            else if (checkMostHighStatus() == "INT")
-            {
-                if (INTSkill.fillAmount == 1)
-                {
-                    INTSkill.fillAmount = 0;
-                }
-            }
-        }
-
-        if (checkMostHighStatus() == "STR")
-        {
-            STRSkill.gameObject.SetActive(true);
-            DEXSkill.gameObject.SetActive(false);
-            INTSkill.gameObject.SetActive(false);
-            STRSkill.fillAmount = STRSkill.fillAmount + Time.deltaTime * 0.5f;
-        }
-        else if (checkMostHighStatus() == "DEX")
-        {
-            STRSkill.gameObject.SetActive(false);
-            DEXSkill.gameObject.SetActive(true);
-            INTSkill.gameObject.SetActive(false);
-            DEXSkill.fillAmount = DEXSkill.fillAmount + Time.deltaTime * 0.5f;
-        }
-        else if (checkMostHighStatus() == "INT")
-        {
-            STRSkill.gameObject.SetActive(false);
-            DEXSkill.gameObject.SetActive(false);
-            INTSkill.gameObject.SetActive(true);
-            INTSkill.fillAmount = INTSkill.fillAmount + Time.deltaTime * 0.5f;
-        }
-        else
-        {
-            STRSkill.gameObject.SetActive(false);
-            DEXSkill.gameObject.SetActive(false);
-            INTSkill.gameObject.SetActive(false);
-        }
     }
 
     public void TurnOffGame()

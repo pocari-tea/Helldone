@@ -98,7 +98,6 @@ public class PlayerController : MonoBehaviour
             ChangeDirection();
             Attack();
         }
-        Skill();
         checkMostHighStatus();
     }
 
@@ -112,14 +111,6 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Platform"))
         {
             pe = collision.gameObject.GetComponent<PlatformEffector2D>();
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Platform"))
-        {
-            pe = null;
         }
     }
 
@@ -162,6 +153,14 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+    }
+    
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platform"))
+        {
+            pe = null;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -395,81 +394,6 @@ public class PlayerController : MonoBehaviour
         fileStream.Close();
         string jsonData = Encoding.UTF8.GetString(data);
         return JsonUtility.FromJson<T>(jsonData);
-    }
-
-    private void Skill()
-    {
-        if (Input.GetMouseButtonDown(1) && checkMostHighStatus() == "STR" && mp >= 20 && cooltime == true)
-        {
-            float effect_z = w_tr.rotation.eulerAngles.z + tr.localScale.x * 45f;
-
-            GameObject incident = Instantiate(SkillPrefab[0],
-            weapon.transform.GetChild(0).transform.GetChild(0).gameObject.GetComponent<Transform>().position,
-            Quaternion.Euler(0, 0, 0));
-
-            Transform e_tr = incident.GetComponent<Transform>();
-            e_tr.localScale = new Vector3(tr.localScale.x, 1, 1);
-            e_tr.position = new Vector3(e_tr.position.x, e_tr.position.y, -4f);
-
-            Destroy(incident, 1f);
-            mp -= 20;
-
-            cooltime = false;
-
-            StartCoroutine(Skill_CoolTime(10f));
-        }
-        else if (Input.GetMouseButtonDown(1) && checkMostHighStatus() == "DEX" && mp >= 20 && cooltime == true)
-        {
-            float effect_z = w_tr.rotation.eulerAngles.z + tr.localScale.x * 45f;
-
-            GameObject incident = Instantiate(SkillPrefab[1],
-                weapon.transform.GetChild(0).transform.GetChild(0).gameObject.GetComponent<Transform>().position,
-                Quaternion.Euler(0, 0, 0));
-
-            Transform e_tr = incident.GetComponent<Transform>();
-            e_tr.localScale = new Vector3(tr.localScale.x, 1, 1);
-            e_tr.position = new Vector3(e_tr.position.x, e_tr.position.y, -4f);
-
-            Destroy(incident, 1f);
-            mp -= 20;
-
-            cooltime = false;
-
-            StartCoroutine(Skill_CoolTime(10f));
-        }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            Camera = Camera.main;
-
-            float effect_z = w_tr.rotation.eulerAngles.z + tr.localScale.x * 45f;
-
-            GameObject incident = Instantiate(SkillPrefab[2],
-                weapon.transform.GetChild(0).transform.GetChild(0).gameObject.GetComponent<Transform>().position,
-                Quaternion.Euler(0, 0, effect_z));
-
-            Transform e_tr = incident.GetComponent<Transform>();
-            e_tr.localScale = new Vector3(tr.localScale.x, 1, 1);
-            e_tr.position = new Vector3(e_tr.position.x, e_tr.position.y, -4f);
-
-            Destroy(incident, 0.5f);
-            mp -= 20;
-
-            cooltime = false;
-
-            StartCoroutine(Skill_CoolTime(10f));
-        }
-        else
-            return;
-    }
-
-    IEnumerator Skill_CoolTime(float time)
-    {
-        while (time > 0f)
-        {
-            time -= Time.deltaTime;
-            yield return new WaitForFixedUpdate();
-        }
-        cooltime = true;
     }
 
     void CreateJsonFile(string createPath, string FileName, string jsonData)
