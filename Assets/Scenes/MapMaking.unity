@@ -2812,6 +2812,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6549431914103552295, guid: 392156b2c56856846a8b93de4d5e1078,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6549431914103552300, guid: 392156b2c56856846a8b93de4d5e1078,
         type: 3}
       propertyPath: m_Name
