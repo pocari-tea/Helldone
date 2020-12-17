@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 7642801843488126451}
   - component: {fileID: 5428465569725049472}
   - component: {fileID: 5289477194269424457}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 8018839887811095561}
   - component: {fileID: 7396262818062810655}
   - component: {fileID: 4238384219499132490}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -853,13 +853,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2460504507338710334}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.002128322, w: 0.99999774}
   m_LocalPosition: {x: 0, y: -13.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1306136073205973765}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.24400002}
 --- !u!212 &7396262818062810655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6612,7 +6612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9117725495815835475}
   - component: {fileID: 1756689979825926661}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6811,7 +6811,7 @@ GameObject:
   - component: {fileID: 4453397170610155234}
   - component: {fileID: 8433929435621070932}
   - component: {fileID: 6256574126458073218}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -6825,13 +6825,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6773647158481979161}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.002128322, w: 0.99999774}
   m_LocalPosition: {x: 18, y: -8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1306136073205973765}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.24400002}
 --- !u!212 &8433929435621070932
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6919,7 +6919,7 @@ GameObject:
   - component: {fileID: 3036536996968829508}
   - component: {fileID: 2520232458921225549}
   - component: {fileID: 2660647326689335502}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -7168,7 +7168,7 @@ GameObject:
   - component: {fileID: 6182694652337435825}
   - component: {fileID: 5934299858757785645}
   - component: {fileID: 25582024969305137}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -7182,14 +7182,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7816749072576316210}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.002128322, w: 0.99999774}
   m_LocalPosition: {x: 6, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9117725495815835475}
   m_Father: {fileID: 1306136073205973765}
   m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.24400002}
 --- !u!212 &5934299858757785645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7559,7 +7559,7 @@ GameObject:
   - component: {fileID: 6949116466416087859}
   - component: {fileID: 4264713421031787803}
   - component: {fileID: 3469323462762331026}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}

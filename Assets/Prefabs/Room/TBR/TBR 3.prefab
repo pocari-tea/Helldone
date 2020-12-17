@@ -14745,7 +14745,7 @@ GameObject:
   - component: {fileID: 6793413725954083843}
   - component: {fileID: 1119774173987037719}
   - component: {fileID: 5469625201336401870}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (5)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -14995,7 +14995,7 @@ GameObject:
   - component: {fileID: 4956640397776911208}
   - component: {fileID: 8312912555013143198}
   - component: {fileID: 6485585922411647643}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ceiling
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -16311,7 +16311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8053611151734980309}
   - component: {fileID: 4094259968154108187}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}

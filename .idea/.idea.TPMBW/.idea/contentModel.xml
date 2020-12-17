@@ -273,11 +273,10 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerPad.cs" t="Include" />
           <e p="SaveData.cs" t="Include" />
-          <e p="Skill_Int.cs" t="Include" />
           <e p="SkillPrefab.cs" t="Include" />
           <e p="Slime.cs" t="Include" />
           <e p="SpawnEnermy.cs" t="Include" />
-          <e p="UIController.cs" t="Include" />
+          <e p="UI_HP.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &382300149393579296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 4387979733887297928}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7703212242628418068}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7703212242628418068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6197642383890953116, guid: 1267a46bfcb2e61469fec76771523759,
+    type: 3}
+  m_PrefabInstance: {fileID: 4387979733887297928}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382300149393579296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8307887776089961291}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &631924593802970997
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,6 +77,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -117,7 +149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8355918144961500653}
   - component: {fileID: 7098112668525446552}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -209,6 +241,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -255,7 +288,7 @@ GameObject:
   - component: {fileID: 2859511141942039379}
   - component: {fileID: 1304492627858836464}
   - component: {fileID: 8134924663972412197}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (2)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -291,6 +324,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -363,7 +397,7 @@ GameObject:
   - component: {fileID: 1208180638138046596}
   - component: {fileID: 4084999497930015194}
   - component: {fileID: 6862798399900012691}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (1)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -399,6 +433,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -500,7 +535,7 @@ Transform:
   - {fileID: 1655277619754212574}
   - {fileID: 7208995061287527364}
   - {fileID: 8405700460323983074}
-  - {fileID: 7703212242628418068}
+  - {fileID: 8307887776089961291}
   - {fileID: 3195929037516297658}
   - {fileID: 5158159185660697523}
   - {fileID: 639147258600461372}
@@ -547,6 +582,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   is_cleared: 0
   gridPos: {x: 0, y: 0}
+--- !u!1 &3837035691635780029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 4387979733887297928}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8307887776089961291}
+  m_Layer: 0
+  m_Name: B (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8307887776089961291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 4387979733887297928}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3837035691635780029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7703212242628418068}
+  m_Father: {fileID: 3161022650871645803}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3853207293442917737
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +659,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -665,7 +732,7 @@ GameObject:
   - component: {fileID: 29193724432118992}
   - component: {fileID: 8348596118710843929}
   - component: {fileID: 5877412955258218983}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -700,6 +767,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5466,6 +5534,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5524,7 +5593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5283520748295299599}
   - component: {fileID: 5133311194030300954}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5581,7 +5650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398670671347663796}
   - component: {fileID: 6341092364781510249}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5638,7 +5707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 192971834941799231}
   - component: {fileID: 6317988895803847386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5696,7 +5765,7 @@ GameObject:
   - component: {fileID: 1655277619754212574}
   - component: {fileID: 5913770417336221436}
   - component: {fileID: 7202297757149249386}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (3)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -5732,6 +5801,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10498,6 +10568,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10593,6 +10664,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10665,7 +10737,7 @@ GameObject:
   - component: {fileID: 8810710116913385045}
   - component: {fileID: 7397530926785824871}
   - component: {fileID: 8604284023622845605}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -10701,6 +10773,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10826,11 +10899,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3161022650871645803}
     m_Modifications:
-    - target: {fileID: 1665362121995559781, guid: 84a3a6739ab3feb459194fc044780598,
-        type: 3}
-      propertyPath: m_Name
-      value: R
-      objectReference: {fileID: 0}
     - target: {fileID: 360403690044516109, guid: 84a3a6739ab3feb459194fc044780598,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10886,6 +10954,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1665362121995559781, guid: 84a3a6739ab3feb459194fc044780598,
+        type: 3}
+      propertyPath: m_Name
+      value: R
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84a3a6739ab3feb459194fc044780598, type: 3}
 --- !u!4 &3195929037516297658 stripped
@@ -10901,11 +10974,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3161022650871645803}
     m_Modifications:
-    - target: {fileID: 6239529392098679617, guid: d8b23f9445fa232469661254ea7cf9d5,
-        type: 3}
-      propertyPath: m_Name
-      value: R collider
-      objectReference: {fileID: 0}
     - target: {fileID: 3663935065703257603, guid: d8b23f9445fa232469661254ea7cf9d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10960,6 +11028,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6239529392098679617, guid: d8b23f9445fa232469661254ea7cf9d5,
+        type: 3}
+      propertyPath: m_Name
+      value: R collider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8b23f9445fa232469661254ea7cf9d5, type: 3}
@@ -11038,12 +11111,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1267a46bfcb2e61469fec76771523759, type: 3}
---- !u!4 &7703212242628418068 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6197642383890953116, guid: 1267a46bfcb2e61469fec76771523759,
-    type: 3}
-  m_PrefabInstance: {fileID: 4387979733887297928}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5314682889737950231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11051,11 +11118,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3161022650871645803}
     m_Modifications:
-    - target: {fileID: 2379178378311154282, guid: e79765ccc0217b04e82f8b41e05de02a,
-        type: 3}
-      propertyPath: m_Name
-      value: B Collider
-      objectReference: {fileID: 0}
     - target: {fileID: 1032729066611150756, guid: e79765ccc0217b04e82f8b41e05de02a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11110,6 +11172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379178378311154282, guid: e79765ccc0217b04e82f8b41e05de02a,
+        type: 3}
+      propertyPath: m_Name
+      value: B Collider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e79765ccc0217b04e82f8b41e05de02a, type: 3}

@@ -11,9 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapMaking.unity
     guid: 547aeaba193cadc4cb4a2d434b53659f
-  - enabled: 1
-    path: Assets/Scenes/Heredity.unity
-    guid: b034672cb54d1bf40a98e0cbdb9f7e96
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f33c4b5d6059649469316e134b181bd8,
       type: 2}

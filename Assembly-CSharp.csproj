@@ -96,6 +96,7 @@
      <Compile Include="Assets\Scripts\SkillPrefab.cs" />
      <Compile Include="Assets\Scripts\Slime.cs" />
      <Compile Include="Assets\Scripts\SpawnEnermy.cs" />
+     <Compile Include="Assets\Scripts\UI_HP.cs" />
      <Compile Include="Assets\Scripts\platform\Platform.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

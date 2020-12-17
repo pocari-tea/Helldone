@@ -9,10 +9,11 @@ TagManager:
   - Platform
   - FxTemporaire
   - sheild
-  - Enermy
   - Attack
   - INT
   - STR
+  - Enemy
+  - Weapon_Effect
   layers:
   - Default
   - TransparentFX
@@ -24,10 +25,10 @@ TagManager:
   - 
   - Player
   - Ground
-  - Flying
-  - Oddish
-  - Platform
+  - Enemy
   - 
+  - Platform
+  - effect
   - 
   - 
   - 

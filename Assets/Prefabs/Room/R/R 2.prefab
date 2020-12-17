@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 4255766922515903932}
   - component: {fileID: 2170685799266702050}
   - component: {fileID: 1703998521570099709}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (2)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 5576448630095644642}
   - component: {fileID: 457980998462653779}
   - component: {fileID: 8556803631625365811}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -924,7 +924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8166734112764450686}
   - component: {fileID: 7438166420475057884}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -981,7 +981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1243594390483190950}
   - component: {fileID: 1182185324390703968}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1038,7 +1038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3377321942961639459}
   - component: {fileID: 4750192435280568383}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1096,7 +1096,7 @@ GameObject:
   - component: {fileID: 6083713585586703638}
   - component: {fileID: 1614657735387810682}
   - component: {fileID: 8574550579346614822}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (1)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -1205,7 +1205,7 @@ GameObject:
   - component: {fileID: 3072534139654153226}
   - component: {fileID: 7851977878974142351}
   - component: {fileID: 3513218345117613982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (3)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -6159,7 +6159,7 @@ GameObject:
   - component: {fileID: 4668166942315800028}
   - component: {fileID: 6909144912433781680}
   - component: {fileID: 744777440973337905}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -6348,7 +6348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3511237219913327014}
   - component: {fileID: 7272755377556371340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}

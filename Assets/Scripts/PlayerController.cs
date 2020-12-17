@@ -11,9 +11,7 @@ public class PlayerController : MonoBehaviour
     public bool dead = false;
 
     public float max_hp = 100.0f;
-    public float hp;
-    public float max_mp = 100.0f;
-    public float mp;
+    public float hp = 100.0f;
     public float damage = 10.0f;
     public float attack_speed = 0.5f;
 
@@ -83,9 +81,6 @@ public class PlayerController : MonoBehaviour
 
         weapon = gameObject.transform.GetChild(0).gameObject;
         w_tr = weapon.GetComponent<Transform>();
-
-        hp = UseJsonFile().recentHP;
-        mp = max_mp;
     }
 
     // Update is called once per frame
@@ -112,21 +107,11 @@ public class PlayerController : MonoBehaviour
         {
             pe = collision.gameObject.GetComponent<PlatformEffector2D>();
         }
-    }
-
-    string PathData = "Data";
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enermy") && !invicible)
+        
+        if (collision.gameObject.CompareTag("Enemy") && !invicible)
         {
-            hp -= collision.gameObject.GetComponent<MonsterInfo>().damage;
-            var json = LoadJsonFile<PlayerInfo>(Application.dataPath + "/Data", "Character_Status");
-            json.recentHP = (int)hp;
-            string jsonData = ObjectToJson(json);
-            CreateJsonFile(string.Format("{0}/{1}", Application.dataPath, PathData), "Character_Status", jsonData);
-
-
-
+            hp -= 10;
+        
             if (hp <= 0)
             {
                 invicible = true;
@@ -138,7 +123,7 @@ public class PlayerController : MonoBehaviour
             else
             {
                 StartCoroutine("Invicible");
-
+        
                 Vector2 attacked_velocity = Vector2.zero;
                 if (collision.gameObject.transform.position.x < tr.position.x)
                 {
@@ -148,30 +133,35 @@ public class PlayerController : MonoBehaviour
                 {
                     attacked_velocity = new Vector2(-7f, 7f);
                 }
-
+        
                 rig2d.AddForce(attacked_velocity, ForceMode2D.Impulse);
             }
         }
-
     }
-    
+
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platform"))
         {
             pe = null;
+
+            if (collision.gameObject.CompareTag("Enemy"))
+            {
+                hp -= 10;
+                Debug.Log("hit player");
+            }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Platform") && pe != null)
-        {
-            anim.StopPlayback();
-            pe.surfaceArc = 170;
-            pe = null;
-        }
-    }
+    // private void OnTriggerExit2D(Collider2D collision)
+    // {
+    //     if (collision.gameObject.CompareTag("Platform") && pe != null)
+    //     {
+    //         anim.StopPlayback();
+    //         pe.surfaceArc = 170;
+    //         pe = null;
+    //     }
+    // }
 
     private void Jump()
     {
@@ -199,7 +189,6 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
 
         Vector2 position = tr.position;
 
@@ -207,7 +196,7 @@ public class PlayerController : MonoBehaviour
 
         tr.position = position;
 
-        if (vertical < 0 && pe != null && pe.surfaceArc > 0)
+        if (Input.GetKeyDown(KeyCode.S) && pe != null && pe.surfaceArc > 0)
         {
             pe.surfaceArc = 0;
         }
@@ -353,8 +342,7 @@ public class PlayerController : MonoBehaviour
 
     private void Ignore_Monster_Attack(bool ignore)
     {
-        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Flying"), ignore);
-        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Oddish"), ignore);
+        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), ignore);
     }
 
     void PlayerDied()

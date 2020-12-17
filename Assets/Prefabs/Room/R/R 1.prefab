@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3122501340395016650}
   - component: {fileID: 305208049185658185}
   - component: {fileID: 813665364476271540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (3)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6846788743536635494}
   - component: {fileID: 848288519646958814}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 8300858453810395362}
   - component: {fileID: 5847036183826818243}
   - component: {fileID: 4762862694188407659}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (4)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -1066,7 +1066,7 @@ GameObject:
   - component: {fileID: 5888902508848529387}
   - component: {fileID: 6883300929593489963}
   - component: {fileID: 8863277333251123882}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (5)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -1315,7 +1315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3653881194902384808}
   - component: {fileID: 5122596583979994859}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1514,7 +1514,7 @@ GameObject:
   - component: {fileID: 7816855384391631722}
   - component: {fileID: 5576471232380554555}
   - component: {fileID: 7967190509954036517}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (2)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -1622,7 +1622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3875116579177518393}
   - component: {fileID: 3972903371009462773}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1760,7 +1760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6747686169258479850}
   - component: {fileID: 3074315433706035517}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6959,7 +6959,7 @@ GameObject:
   - component: {fileID: 6078463193815932305}
   - component: {fileID: 986990887887971981}
   - component: {fileID: 4115086906284652762}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ground
   m_TagString: Ground
   m_Icon: {fileID: 0}

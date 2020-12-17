@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6696979499755702675}
   - component: {fileID: 2281275279219555997}
   - component: {fileID: 4861368415301393085}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5370,7 +5370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2798086251241056835}
   - component: {fileID: 6601739763273746765}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -10572,7 +10572,7 @@ GameObject:
   - component: {fileID: 2281091274959579252}
   - component: {fileID: 1992992482839740834}
   - component: {fileID: 5502132941268858869}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall (1)
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -11381,7 +11381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971407349041614355}
   - component: {fileID: 8035509451901821160}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GameObject
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11439,7 +11439,7 @@ GameObject:
   - component: {fileID: 453987073697534608}
   - component: {fileID: 4096260097027728934}
   - component: {fileID: 1714447027317045447}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: wall
   m_TagString: wall
   m_Icon: {fileID: 0}
