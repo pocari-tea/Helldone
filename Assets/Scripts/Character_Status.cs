@@ -172,19 +172,19 @@ public class Character_Status : MonoBehaviour
     {
         var json = LoadJsonFile<PlayerInfo>(Application.dataPath + "/Data", "Character_Status");
 
-        StatusHP.text = string.Format("체력 = {0}/{1}", json.HP, json.recentHP);
-        StatusATK.text = "공격력 = " + json.ATK.ToString();
-        StatusSTR.text = "힘 = " + json.STR.ToString();
-        StatusDEX.text = "민첩 = " + json.DEX.ToString();
-        StatusINT.text = "지능 = " + json.INT.ToString();
-        StatusATKSpeed.text = "공격 속도 = " + json.ATKSpeed.ToString();
-        StatusMP.text = string.Format("기력 = {0}/{1}", json.MP, json.recentMP);
-        StatusDEF.text = "방어력 = " + json.DEF.ToString();
-        StatusDodge.text = "회피률 = " + json.Dodge.ToString();
-        StatusCritical.text = "치명타 확률 = " + json.Critical.ToString();
-        StatusMoveSpeed.text = "이동속도 = " + json.MoveSpeed.ToString();
-        StatusJob.text = "직업 = " + json.Job;
-        StatusHeredity.text = json.Heredity;
+        // StatusHP.text = string.Format("체력 = {0}/{1}", json.HP, json.recentHP);
+        // StatusATK.text = "공격력 = " + json.ATK.ToString();
+        // StatusSTR.text = "힘 = " + json.STR.ToString();
+        // StatusDEX.text = "민첩 = " + json.DEX.ToString();
+        // StatusINT.text = "지능 = " + json.INT.ToString();
+        // StatusATKSpeed.text = "공격 속도 = " + json.ATKSpeed.ToString();
+        // StatusMP.text = string.Format("기력 = {0}/{1}", json.MP, json.recentMP);
+        // StatusDEF.text = "방어력 = " + json.DEF.ToString();
+        // StatusDodge.text = "회피률 = " + json.Dodge.ToString();
+        // StatusCritical.text = "치명타 확률 = " + json.Critical.ToString();
+        // StatusMoveSpeed.text = "이동속도 = " + json.MoveSpeed.ToString();
+        // StatusJob.text = "직업 = " + json.Job;
+        // StatusHeredity.text = json.Heredity;
     }
 
     public void HPFull()

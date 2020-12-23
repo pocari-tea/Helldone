@@ -241,13 +241,24 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Boss" t="Include">
+            <e p="Boss_Aim.cs" t="Include" />
+            <e p="BossController.cs" t="Include" />
+            <e p="Fire.cs" t="Include" />
+            <e p="Ice.cs" t="Include" />
+          </e>
           <e p="CameraMove.cs" t="Include" />
+          <e p="Canvas_Death.cs" t="Include" />
           <e p="Character_Job.cs" t="Include" />
           <e p="Character_Status.cs" t="Include" />
           <e p="Character_Weapon.cs" t="Include" />
           <e p="ChooseHeredity.cs" t="Include" />
           <e p="Command.cs" t="Include" />
           <e p="Controller.cs" t="Include" />
+          <e p="Enemy" t="Include">
+            <e p="Bat.cs" t="Include" />
+            <e p="Slime.cs" t="Include" />
+          </e>
           <e p="GameManager.cs" t="Include" />
           <e p="Inheritance.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
@@ -272,9 +283,9 @@
           </e>
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerPad.cs" t="Include" />
+          <e p="Portal.cs" t="Include" />
           <e p="SaveData.cs" t="Include" />
           <e p="SkillPrefab.cs" t="Include" />
-          <e p="Slime.cs" t="Include" />
           <e p="SpawnEnermy.cs" t="Include" />
           <e p="UI_HP.cs" t="Include" />
         </e>

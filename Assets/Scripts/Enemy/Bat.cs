@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Slime : MonoBehaviour
+public class Bat : MonoBehaviour
 {
     private float hp = 60;
     private Rigidbody2D rigid;
@@ -27,13 +27,14 @@ public class Slime : MonoBehaviour
 
         //Platform Check
         Vector2 frontVec = new Vector2(rigid.position.x + nextMove, rigid.position.y);
-        RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 1, LayerMask.GetMask("Ground"));
+        Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
+        RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 3, LayerMask.GetMask("Ground"));
         if (rayHit.collider == null)
             Turn();
 
         if (hp <= 0)
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 
@@ -46,17 +47,17 @@ public class Slime : MonoBehaviour
         //Fiip Sprite
         if (nextMove != 0)
         {
-            spriteRenderer.flipX = nextMove == 0;
+            spriteRenderer.flipX = nextMove == 1;
         }
     }
 
     void Turn()
     {
         nextMove *= -1;
-        spriteRenderer.flipX = nextMove == 0;
+        spriteRenderer.flipX = nextMove == 1;
         
         CancelInvoke();
-        Invoke("Think", 5);
+        Invoke("Think", 2);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

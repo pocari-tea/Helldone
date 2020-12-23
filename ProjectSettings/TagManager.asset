@@ -9,11 +9,12 @@ TagManager:
   - Platform
   - FxTemporaire
   - sheild
-  - Attack
   - INT
   - STR
   - Enemy
   - Weapon_Effect
+  - Attack
+  - Portal
   layers:
   - Default
   - TransparentFX

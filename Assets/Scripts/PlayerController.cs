@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
     string MostHighStatus;
 
-    public GameObject PlayerDiedPanel;
+    [SerializeField] private GameObject PlayerDiedPanel;
 
     [SerializeField] GameObject[] SkillPrefab;
 
@@ -77,8 +77,7 @@ public class PlayerController : MonoBehaviour
         tr = gameObject.GetComponent<Transform>();
         anim = gameObject.GetComponent<Animator>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-
-
+        
         weapon = gameObject.transform.GetChild(0).gameObject;
         w_tr = weapon.GetComponent<Transform>();
     }
@@ -110,7 +109,7 @@ public class PlayerController : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Enemy") && !invicible)
         {
-            hp -= 10;
+            hp -= 100;
         
             if (hp <= 0)
             {
@@ -252,7 +251,7 @@ public class PlayerController : MonoBehaviour
             float effect_z = w_tr.rotation.eulerAngles.z + tr.localScale.x * 45f;
 
             GameObject incident = Instantiate(incidental,
-                weapon.transform.GetChild(0).gameObject.GetComponent<Transform>().position,
+                weapon.transform.gameObject.GetComponent<Transform>().position,
                 Quaternion.Euler(0, 0, effect_z));
 
             Transform e_tr = incident.GetComponent<Transform>();

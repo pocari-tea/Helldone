@@ -6,15 +6,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TPMBW/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPMBW/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TPMBW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TPMBW/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Slime/Slime.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Slime/Slime.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Character_Status.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Character_Status.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/B/B 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/B/B 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/B/B 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/B/B 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/B/B 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/B/B 3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/B.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/B.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/BR 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/BR 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/BR 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/BR 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/BR 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/BR/BR 3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/L/L 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/L/L 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/L/L 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/L/L 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/L/L 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/L/L 3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/LB/LB 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/LB/LB 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/LB/LB 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/LB/LB 2.prefab" afterDir="false" />
@@ -50,40 +52,52 @@
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/TLR/TLR 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/TLR/TLR 2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/TLR/TLR 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/TLR/TLR 3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/TR/TR 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/TR/TR 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/TR/TR 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/TR/TR 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Room/TR/TR 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Room/TR/TR 3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/shield.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapon/shield.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/two_hand_sword.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapon/two_hand_sword.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapMaking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MapMaking.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_Status.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_Status.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveScene.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Slime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss/attack/boss_attack.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/boss/attack/boss_attack.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss/skill/explosion.gif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/boss/skill/explosion.gif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss/skill/ice_attack.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss/skill/ice_attack.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss/skill/stay/ice.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/boss/skill/stay/ice.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss/stay/boss_stay.gif.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/boss/stay/boss_stay.gif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/boss/stay/boss_stay.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/boss/stay/boss_stay.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/weapon/two_hand_sword/two_hand_sword_effect.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/weapon/two_hand_sword/two_hand_sword_effect.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Collab/CollabSnapshot_bbc30df3-069c-4855-8130-d2612e096bdb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Collab/CollabSnapshot_bbc30df3-069c-4855-8130-d2612e096bdb.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-0c2115d5fdcf61e478.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-0c2115d5fdcf61e478.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-101877d5d8a6305409.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-101877d5d8a6305409.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-648a26b7ad8a05b46b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-648a26b7ad8a05b46b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-6621476d71a78254b8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-6621476d71a78254b8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-74e8e514ac2d00342b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-74e8e514ac2d00342b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-9cc5e27e3d682a64c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-9cc5e27e3d682a64c9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-b78752e85420f8746b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-b78752e85420f8746b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-a15879f53138733428.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-a15879f53138733428.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-dddac8cde52b2f94b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-dddac8cde52b2f94b9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-0c2115d5fdcf61e478.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-0c2115d5fdcf61e478.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-101877d5d8a6305409.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-101877d5d8a6305409.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-648a26b7ad8a05b46b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-648a26b7ad8a05b46b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-6621476d71a78254b8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-6621476d71a78254b8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-74e8e514ac2d00342b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-74e8e514ac2d00342b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-9cc5e27e3d682a64c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-9cc5e27e3d682a64c9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-a15879f53138733428.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-a15879f53138733428.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-b78752e85420f8746b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-b78752e85420f8746b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-dddac8cde52b2f94b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-dddac8cde52b2f94b9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/815b16-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
@@ -98,13 +112,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/platform/Platform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Canvas_Death.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-9cc5e27e3d682a64c9.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/Boss_Aim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI_HP.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/StateCache/SceneView/815b16-mainStage.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/BossController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_Status.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/Ice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/StateCache/Hierarchy/9fd214-mainStage.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AstarPathfindingProject/Utilities/RetainedGizmos.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Slime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Slime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/platform/Platform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/Fire.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Bat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/StateCache/SceneView/815b16-mainStage.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Portal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -116,8 +143,19 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI_HP.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Slime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Bat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Portal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Slime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boss/Boss_Aim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boss/Ice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boss/Fire.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Canvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Canvas_Death.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character_Status.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boss/BossController.cs" />
       </list>
     </option>
   </component>
@@ -178,7 +216,11 @@
       <workItem from="1592268517061" duration="3750000" />
       <workItem from="1592272987886" duration="1722000" />
       <workItem from="1602742415231" duration="252000" />
-      <workItem from="1608180463598" duration="9109000" />
+      <workItem from="1608180463598" duration="9756000" />
+      <workItem from="1608505460070" duration="15811000" />
+      <workItem from="1608596135212" duration="9419000" />
+      <workItem from="1608621035344" duration="4430000" />
+      <workItem from="1608690232903" duration="13159000" />
     </task>
     <servers />
   </component>
@@ -201,69 +243,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1578986883430">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608517635712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883430" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1578986883430">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883430" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1578986883430">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883430" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1578986883430">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883430" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1578986883430">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883430" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
-    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1578986883431">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578986883431" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608517635712" />
   </component>
 </project>

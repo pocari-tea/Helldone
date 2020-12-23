@@ -10,10 +10,7 @@ public class MoveScene : MonoBehaviour
     string PathData = "Data";
     public void StartButtonClicked()
     {
-        if (UseJsonFile().Heredity != "None")
-            SceneManager.LoadScene("MapMaking");
-        else
-            SceneManager.LoadScene("Heredity");
+        SceneManager.LoadScene("MapMaking");
     }
     public void Quit()
     {
