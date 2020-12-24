@@ -109,7 +109,7 @@ public class PlayerController : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Enemy") && !invicible)
         {
-            hp -= 100;
+            hp -= 10;
         
             if (hp <= 0)
             {

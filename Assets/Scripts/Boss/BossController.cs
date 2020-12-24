@@ -6,15 +6,18 @@ using Random = UnityEngine.Random;
 
 public class BossController : MonoBehaviour
 {
+    public float hp;
+    
     //발사될 위치
     [SerializeField] GameObject icePos;
     //방향
     [SerializeField] Transform Center;
     [SerializeField] private GameObject target;
     //총알
-    [SerializeField] private GameObject fire;
     [SerializeField] private GameObject ice;
     [SerializeField] private GameObject fire_pos;
+    
+    [SerializeField] private GameObject ClearPanel;
 
     private Animator anim;
     
@@ -33,22 +36,28 @@ public class BossController : MonoBehaviour
         NextPatton();
     }
 
+    private void FixedUpdate()
+    {
+        if (hp <= 0)
+        {
+            Destroy(gameObject);
+            ClearPanel.gameObject.SetActive(true);
+        }
+    }
+
     private void NextPatton()
     {
         if (nextAttack == 0)
         {
             StartCoroutine(Patton0 (10f));
-            Debug.Log("패턴0");
         }
         if (nextAttack == 1)
         {
             StartCoroutine(Patton1 (10f));
-            Debug.Log("패턴1");
         }
         if (nextAttack == 2)
         {
-            StartCoroutine(Patton2 (10f));
-            Debug.Log("패턴2");
+            StartCoroutine(Patton2 (5f));
         }
     }
 
@@ -72,7 +81,7 @@ public class BossController : MonoBehaviour
                 // Ice의 방향을 Center의 방향으로
                 Ice.transform.rotation = transformRotation;
 
-                patton_cool = 0.3f;
+                patton_cool = 0.5f;
             }
             
             cool -= Time.deltaTime;
@@ -98,11 +107,7 @@ public class BossController : MonoBehaviour
                 // Fire 마법진 생성
                 GameObject Fire_pos = Instantiate(fire_pos);
                 Fire_pos.transform.position = target.transform.position;
-                // ?초 후에 fire 생성
-        
-                GameObject Fire = Instantiate(fire);
-                //플레이어 위치에 불꽃 생성
-                Fire.transform.position = Fire_pos.transform.position;
+                // 2초 후에 fire 생성
 
                 patton_cool = 3f;
             }
@@ -138,5 +143,13 @@ public class BossController : MonoBehaviour
         
         nextAttack = Random.Range(0, 3);
         NextPatton();
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Weapon_Effect"))
+        {
+            hp -= 10;
+        }
     }
 }

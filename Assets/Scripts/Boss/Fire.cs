@@ -8,6 +8,6 @@ public class Fire : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, 2f);
     }
 }

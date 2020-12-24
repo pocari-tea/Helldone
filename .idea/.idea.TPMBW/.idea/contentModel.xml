@@ -243,8 +243,10 @@
         <e p="Scripts" t="Include">
           <e p="Boss" t="Include">
             <e p="Boss_Aim.cs" t="Include" />
+            <e p="Boss_HP.cs" t="Include" />
             <e p="BossController.cs" t="Include" />
             <e p="Fire.cs" t="Include" />
+            <e p="Fire_Pos.cs" t="Include" />
             <e p="Ice.cs" t="Include" />
           </e>
           <e p="CameraMove.cs" t="Include" />

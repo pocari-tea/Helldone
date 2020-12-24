@@ -70,7 +70,9 @@
      <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\Scripts\Boss\BossController.cs" />
      <Compile Include="Assets\Scripts\Boss\Boss_Aim.cs" />
+     <Compile Include="Assets\Scripts\Boss\Boss_HP.cs" />
      <Compile Include="Assets\Scripts\Boss\Fire.cs" />
+     <Compile Include="Assets\Scripts\Boss\Fire_Pos.cs" />
      <Compile Include="Assets\Scripts\Boss\Ice.cs" />
      <Compile Include="Assets\Scripts\CameraMove.cs" />
      <Compile Include="Assets\Scripts\Canvas_Death.cs" />
